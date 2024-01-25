@@ -1,0 +1,230 @@
+body{
+    background-image: url(https://i.ytimg.com/vi/bfi6D_wsrfs/maxresdefault.jpg);
+    background-position: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    height: 100px;
+}
+h2{
+    font-size: 30px;
+}
+.logo{
+  display: flex;
+}
+.navbar{
+
+    text-align: center;
+display: flex;
+align-items: center;
+margin-left: 30%;
+}
+a{
+color: white;
+padding: 10px;
+text-decoration: none;
+}
+
+.grid{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.i{
+    border-radius: 50px;
+}
+pre{
+    font-size: 15px;
+    display: grid;
+
+}
+.z{
+    color: blue;
+}
+.gridi{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8{
+    height: 380px;
+    width: 350px;
+    background-color: aqua;
+    color: rgb(12, 11, 11);
+    border-radius: 50px 50px 0px 0px;
+}
+.item1
+{
+    background-color: rgb(228, 228, 6);
+
+}
+.item2
+{
+    background-color: rgb(62, 60, 60);
+}
+.btn{
+    text-align: center;
+    background-color: black;
+    display: inline;
+    display:flex;
+    justify-content: center;
+}
+.item3{ 
+    background-color: green;
+}
+.item4{
+    background-color: orange;
+}
+.item5{
+    background-color:red;
+}
+.item6{
+    background-color:rgb(43, 156, 232);
+}
+.item7{
+    background-color: rgb(167, 32, 167);
+}
+.item8{
+    background-color: rgb(156, 37, 57)
+}
+.gridii{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    display: flex
+    ;
+}
+.itema,.itemb,.itemc,.itemd,.iteme,.itemf{
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+}
+.itema{
+    border: 5px solid orange;
+    background-color: rgba(98, 158, 182, 0.432);
+}
+.itemb{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid whitesmoke;
+}
+.itemc{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid darkblue;
+}
+.itemd{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid lightgreen;
+}
+.iteme{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid skyblue;
+}
+.itemf{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid green;
+}
+.gridiii{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.iteml,.itemk,.itemm{
+    gap: 10px;
+    width: 500px;
+    height: 120px;
+    background-color: whitesmoke;
+}
+.n{
+    display: flex;
+    color: black;
+}
+.itemk{
+    display: flex;
+    color: black;
+}
+.itemm{
+    display: flex;
+    color: black;
+}
+.row{
+    display: flex;
+}
+.inputbox{
+    color: white;
+    width: 850px;
+    height: 70px;
+}
+.btni{
+    width: 85px;
+    color: white;
+    background-color: black;
+}
+footer{
+    background-color: black;
+    background-image: url(con.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 400px;
+    height: 100px;
+}
+input{
+    width: 400px;
+    height: 30px;
+}
+.a{
+    background-color: grey;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.a:hover{
+    background-color: brown;
+}
+.gridiiii{
+    
+    display: grid;
+    grid-template-rows: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+
+}
+.itemp,.itemq,.itemr,.items{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    
+}
+.mg{
+    border-radius: 50%;
+    padding:3px;
+    margin-left: -10px;
+}
+#carousel {
+    width: 100%;
+    height:700px;
+    background-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+}
+#carousel .slide {
+    display: inline-block;
+}
+h2{
+    color:wheat;
+}
+.btn:hover{
+    background-color: brown;
+
+}
+marquee{
+    color: #ff0000;
+}
